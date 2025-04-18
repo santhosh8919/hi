@@ -1,0 +1,237 @@
+/* .wrapper {
+  padding: 1rem;
+}
+
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 2.5rem;
+  border: 1px solid #e5e7eb;
+  overflow-x: auto;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-transform: capitalize;
+}
+
+.recordBadge {
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+}
+
+.paymentBadge {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.generalBadge {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  text-align: left;
+}
+
+.thead {
+  background-color: #f3f4f6;
+  color: #374151;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.th,
+.td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e5e7eb;
+}
+
+.tr:hover {
+  background-color: #f9fafb;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  border: 1px solid #d1d5db;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.button {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.edit {
+  background-color: #f59e0b;
+}
+
+.edit:hover {
+  background-color: #d97706;
+}
+
+.save {
+  background-color: #16a34a;
+}
+
+.save:hover {
+  background-color: #15803d;
+}
+
+.delete {
+  background-color: #dc2626;
+}
+
+.delete:hover {
+  background-color: #b91c1c;
+}
+
+.emptyRow {
+  text-align: center;
+  padding: 1.25rem 0;
+  color: #6b7280;
+} */
+/* CrudPage.module.css */
+
+.container {
+  padding: 1rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+  border: 1px solid #e5e7eb;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-transform: capitalize;
+}
+
+.badge {
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+}
+
+.badgePayment {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+}
+
+.badgeGeneral {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.table {
+  width: 100%;
+  font-size: 0.875rem;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.thead {
+  background-color: #f3f4f6;
+  color: #374151;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.th,
+.td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e5e7eb;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.button {
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.375rem;
+  color: white;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.editButton {
+  background-color: #f59e0b;
+}
+
+.editButton:hover {
+  background-color: #d97706;
+}
+
+.saveButton {
+  background-color: #16a34a;
+}
+
+.saveButton:hover {
+  background-color: #15803d;
+}
+
+.deleteButton {
+  background-color: #dc2626;
+}
+
+.deleteButton:hover {
+  background-color: #b91c1c;
+}
+
+.emptyRow {
+  text-align: center;
+  padding: 2rem 0;
+  color: #6b7280;
+}

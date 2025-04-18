@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.title {
+  font-size: 2.25rem; /* text-4xl */
+  font-weight: 700; /* font-bold */
+  color: #1f2937; /* text-gray-800 */
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* lg:grid-cols-2 */
+  }
+}
+
+.chartCard {
+  background-color: white;
+  padding: 1.5rem; /* p-6 */
+  border-radius: 1rem; /* rounded-2xl */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+  border: 1px solid #e5e7eb; /* border */
+}
+
+.chartTitleBlue {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600; /* font-semibold */
+  color: #2563eb; /* text-blue-600 */
+  margin-bottom: 1rem;
+}
+
+.chartTitleGreen {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #16a34a; /* text-green-600 */
+  margin-bottom: 1rem;
+}
